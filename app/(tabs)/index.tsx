@@ -10,7 +10,7 @@ import { Link } from 'expo-router';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#b82c2c', dark: '#1ec1f3bb' }}
+      headerBackgroundColor={{ light: '#e3249a', dark: '#1ec1f3bb' }}
       headerImage={
         <Image
           source={require('@/assets/images/partial-react-logo.png')}
@@ -18,7 +18,7 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">I LOVE YOU GODSWILL OKONNNNNN</ThemedText>
+        <ThemedText type="title">OSHOKO OLUWAFISAYO</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
